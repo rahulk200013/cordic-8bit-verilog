@@ -15,28 +15,22 @@ synthesized using the Cadence Genus tool.
 
 **Specifications**
 
-Operating Frequency: 100MHz
-
-Rise and Fall time: 0.1ns
-
-Latency: 150ns (15 clock cycles)
-
-Average error: 0.45% (Cosine) and 0.36%(Sine)
+Operating Frequency: 100MHz\
+Rise and Fall time: 0.1ns\
+Latency: 150ns (15 clock cycles)\
+Average error: 0.45% (Cosine) and 0.36% (Sine)
 
 
-**Slack**	     Setup (ns)	   Hold (ns)
+| Slack | Setup (ns)    | Hold (ns)    |
+| :---:   | :---: | :---: |
+| Pre-CTS | 3.882   | 0.080   |
+| Post-CTS | 3.892   | 0.076   |
 
-Pre-CTS	     3.882	      0.08
-
-Post-CTS	   3.892	      0.076
-
-
+\
 **Tools Used**
 
-Synthesis - Genus
-
-Place & Route - Innovus
-
+Synthesis - Genus\
+Place & Route - Innovus\
 Simulation - ModelSim
 
 
