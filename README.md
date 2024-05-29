@@ -24,6 +24,8 @@ This project implements an 8-bit CORDIC algorithm in Verilog to calculate the si
   - Cosine: 0.45%
   - Sine: 0.36%
 
+  ![Error Analysis for Sine and Cosine](imgs/error_analysis.png)
+
 ## Project Files
 The repository contains the following files:
 - Verilog source code
