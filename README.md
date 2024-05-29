@@ -29,10 +29,10 @@ This project implements an 8-bit CORDIC algorithm in Verilog to calculate the si
 ## Project Files
 The repository contains the following files:
 - Verilog source code
-- Timing analysis reports
-- Documentation
+- Timing analysis reports (Check [Project_Report.pdf](docs/Project_Report.pdf) in docs)
+- Documentation (Check [Project_Report.pdf](docs/Project_Report.pdf) in docs)
 
 ## Getting Started
 To clone and run this project, use the following commands:
 ```bash
-git clone https://github.com/yourusername/Cordic-8-bit.git
+git clone https://github.com/yourusername/cordic-8bit-verilog.git
