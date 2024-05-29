@@ -19,12 +19,22 @@ This project implements an 8-bit CORDIC algorithm in Verilog to calculate the si
 - **Synthesis:** Cadence Genus
 - **Place and Route:** Cadence Innovus
 
+## Synthesis Results
+- **Area:** 10446.48 µm²
+- **Timing Analysis:**
+  | Timing Stage | Hold Slack | Setup Slack |
+  |--------------|------------|-------------|
+  | Pre-CTS      | +0.080 ns  | +3.882 ns   |
+  | Post-CTS     | +0.076 ns  | +3.892 ns   |
+
 ## Performance
 - **Average Error:**
   - Cosine: 0.45%
   - Sine: 0.36%
 
-  ![Error Analysis for Sine and Cosine](imgs/error_analysis.png)
+## Verification
+- No DRC (Design Rule Check) violations
+- No LVS (Layout Versus Schematic) violations
 
 ## Project Files
 The repository contains the following files:
